@@ -103,7 +103,6 @@ export default function TodoScreen() {
         }
         {selectedTodos.length !== 0 ? <FAB
             style={styles.fab}
-            small
             icon="notebook"
             onPress={() => setSelectedOptionPaneVisible(true)}
         /> : null}
